@@ -1,0 +1,13 @@
+import numpy as np
+import yfinance as yf
+import streamlit as st
+import matplotlib.pyplot as plt
+from fbprophet import Prophet
+from fbprophet.plot import plot_plotly
+from plotly import graph_objs as go
+from datetime import date
+import warnings
+
+# Define o título do Dashboard
+st.title("Mini-Projeto 2 - Data App")
+st.title("Dashboard Financeiro Interativo e em Tempo Real Para Previsão de Ativos Financeiros")
