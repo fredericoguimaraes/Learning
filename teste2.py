@@ -1,8 +1,5 @@
 import numpy as np
-
 import pandas as pd
-import matplotlib.pyplot as plt
-
 from plotly import graph_objs as go
 from datetime import date
 import warnings
